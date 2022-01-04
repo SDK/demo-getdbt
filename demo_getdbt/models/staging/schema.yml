@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: citibike_trips_2018
+    description: "Citibike trips only for 2018"
+    columns:
+      - name: birth_year
+        tests:
+          - not_null
+      - name: start_station_id   
+        tests: 
+          - relationships:
+              to: source('citybike','citibike_stations')
+              field: station_id
+  - name: citibike_trips_2013
+    description: "Citibike trips for 2013"
+    columns:
+      - name: birth_year
+        tests:
+          - not_null

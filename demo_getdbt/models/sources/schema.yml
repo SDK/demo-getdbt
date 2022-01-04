@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: citybike
+    database: bigquery-public-data
+    schema: new_york_citibike
+    meta:
+      contains_pii: false
+      owner: "sgonzalez"
+    tables:
+      - name: citibike_stations
+        columns:
+          - name: station_id
+            tests:
+              - unique
+              - not_null
+
+      - name: citibike_trips
+      
