@@ -16,4 +16,4 @@ Try running the following commands:
 
 ## Instructiones para ambiente
 - configurar profiles
-`mkdir ~/.dbt && cp profiles/profiles.yml ~/.dbt/`
+`mkdir ~/.dbt && cp profiles/* ~/.dbt/`
