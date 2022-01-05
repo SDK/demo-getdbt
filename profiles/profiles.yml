@@ -3,7 +3,7 @@ demo_getdbt:
     dev:
       dataset: getdbt_demo
       fixed_retries: 1
-      keyfile: /root/profiles/dogwood-day-336418-28272a6c70e7.json
+      keyfile: /home/gitpod/.dbt/dogwood-day-336418-28272a6c70e7.json
       location: US
       method: service-account
       priority: interactive
