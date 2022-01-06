@@ -38,3 +38,8 @@ models:
       +materialized: view
     datamart:
       +materialized: table
+
+vars:
+  'dbt_date:time_zone': 'America/Santiago'
+
+
