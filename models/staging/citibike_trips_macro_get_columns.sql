@@ -1,5 +1,6 @@
 
 {% set usertypes = dbt_utils.get_column_values(table=ref('citibike_trips_2018'), column='usertype') %}
+--{# set usertypes = ['asd','foo','bla','bar'] #}
 
 with
 {% for usertype in usertypes %}
