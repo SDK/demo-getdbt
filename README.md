@@ -17,3 +17,17 @@ Try running the following commands:
 ## Instructiones para ambiente
 - configurar profiles
 `mkdir ~/.dbt && cp profiles/* ~/.dbt/`
+
+## Workshop 1
+- Conectar sources de datos a DBT
+- modelar tablas/vistas en models
+- dbt_project << contiene configuracion del proyecto
+- profiles
+- dbt run << correr las transformaciones
+- dbt test << ejecutar los testing
+- schema.yml << es donde se guarda la informacion de schema y metadata de las fuentes
+
+## Workshop 2
+- Macros
+- packages
+- git 
